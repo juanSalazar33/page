@@ -1,4 +1,12 @@
-<section>
-    <h1>Work experience</h1>
-    <app-card></app-card>
+<section
+    *ngFor="let experience of experiences"
+>
+    {{experience.date[1]}}
+    <app-card
+        [title]="experience.title"
+        [role]="experience.role"
+        [locate]="experience.locate"
+        [firstActivity]="experience.activities[0]"
+    ></app-card>
+    
 </section>

@@ -1,5 +1,4 @@
 import { Experience } from "../models";
-
 export const experiences: Experience[] = [    
     {
         title: 'Synergy Global',
