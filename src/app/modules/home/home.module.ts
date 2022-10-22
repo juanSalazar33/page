@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home.routing';
 import { CardComponent } from 'src/app/components/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { CardComponent } from 'src/app/components/card';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    CardComponent
+    CardComponent,
+    MatSidenavModule
   ]
 })
 export class HomeModule { }

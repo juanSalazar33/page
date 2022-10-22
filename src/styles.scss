@@ -2,3 +2,7 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.docs-app-background  {
+    background-color: grayscale($color: #000000b2);
+}
+

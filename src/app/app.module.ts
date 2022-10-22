@@ -6,13 +6,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { FormExperienceComponent } from './components/form-experience/form-experience.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormExperienceComponent
   ],
   imports: [
     BrowserModule,
