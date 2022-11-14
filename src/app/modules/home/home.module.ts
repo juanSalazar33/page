@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home.routing';
 
 import { HomeComponent } from './home.component';
 import { CardComponent } from 'src/app/components/card';
+import { TestComponent } from './trainig/training'
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
@@ -20,6 +21,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     HomeComponent
   ],
   imports: [
+    TestComponent,
     CommonModule,
     HomeRoutingModule,
     CardComponent,
